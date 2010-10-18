@@ -1,0 +1,189 @@
+/* ############################### */
+/* ## CSS MADE BY HENRIQUE GOGÓ ## */
+/* ############################### */
+
+/* PAGE */
+html, body {
+	margin: 0;
+	padding: 0;
+}
+body {
+	font-family: "Trebuchet MS", Verdana, Helvetica, sans-serif;
+	font-size: 14px;
+	color: #666666;
+	background: #F5F5F5;
+}
+#gog,#body {
+	margin: 0 100px;
+}
+/* /PÁGINA */
+
+/* TAGs */
+h1 {
+	margin: 0;
+	padding: 10px 0;
+	font-size: 24px;
+	font-weight: normal;
+	border-bottom: 2px solid #EAEAEA;
+}
+h2 {
+	margin: 0;
+	padding: 10px 0;
+	font-size: 18px;
+	font-weight: normal;
+	color: #FFCC00;
+}
+p {
+	margin-top: 0;
+	color: #666666;
+}
+a {
+	color: #2852BB;
+}
+a:hover {
+	color: #00237B;
+}
+ul {
+	color: #FFCC00;
+	list-style: square;
+}
+ul.list {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+ul.list img {
+	border: 0;
+}
+ul.list a {
+	text-decoration: none;
+}
+ul.list a:hover {
+	text-decoration: underline;
+}
+ul.list li {
+	padding: 3px 0;
+}
+form#config label {
+	float: left;
+	display: block;
+}
+form#config input[type=text], #config input[type=password], #config select {
+	width: 250px;
+}
+form#config textarea {
+	width: 80%;
+	height: 200px;
+}
+/* /TAGs */
+
+/* TOPO */
+#top {
+	position: relative;
+	height: 109px;
+	background: url("img/topoFundo.gif") repeat-x;
+}
+#top h1 {
+	position: absolute;
+	bottom: 5px;
+	margin: 0;
+	padding: 0;
+	font-size: 52px;
+	font-weight: bold;
+	color: #FFFFFF;
+	border: none;
+}
+#top ul#menu {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	margin: 0;
+	margin-right: 100px;
+	padding: 0;
+	padding-bottom: 12px;
+	font-size: 22px;
+	text-align: right;
+	color: #FFFFFF;
+	list-style: none;
+}
+#top ul#menu li {
+	display: inline;
+	margin: 0 10px;
+}
+#top ul#menu li a {
+	padding-bottom: 12px;
+	text-decoration: none;
+	color: #FFFFFF;
+}
+#top ul#menu li a:hover {
+	color: #FFCC00;
+}
+#top ul#menu .active {
+	background: url("img/menuAtivo.gif") no-repeat bottom;
+	color: #FFCC00;
+}
+/* /TOPO */
+
+/* CORPO */
+#body {
+	padding: 25px;
+	padding-bottom: 0;
+	background: #FFFFFF url("img/baseFundo.gif") repeat-x bottom;
+	border: 2px solid #EAEAEA;
+	border-top: none;
+	border-bottom: none;
+}
+/* CORPO > Conteudo */
+#content {
+	float: left;
+	width: 72%;
+}
+/* CORPO > Direita */
+#side {
+	float: right;
+	width: 26%;
+}
+#side ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+#side ul li {
+	margin-bottom: 10px;
+	padding: 10px;
+	font-size: 20px;
+	background: #EAEAEA;
+	border: 1px solid #AAAAAA;
+}
+#side ul li img {
+	vertical-align: middle;
+}
+#side ul li a {
+	text-decoration: none;
+	color: #666666;
+}
+#side ul li a:hover {
+	text-decoration: underline;
+}
+/* CORPO > Base */
+#base {
+	margin-top: 25px;
+	height: 60px;
+	font-size: 12px;
+	border-top: 2px solid #EAEAEA;
+}
+#base p {
+	margin-top: 13px;
+}
+/* /CORPO */
+
+/* Genéricos */
+.esq {
+	float: left;
+}
+.meio {
+	margin: 0 auto;
+}
+.dir {
+	float: right;
+}

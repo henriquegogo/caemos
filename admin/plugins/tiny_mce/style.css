@@ -1,0 +1,64 @@
+/* INÍCIO DE FORMATAÇÃO DA PÁGINA */
+html, body {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	color: #666666;
+}
+
+.secao, .data {
+	font-size: 14px;
+	text-transform: uppercase;
+	color: #ACACAC;
+}
+.secao {
+	font-weight: bold;
+}
+.data {
+	float: right;
+}
+.mais {
+	display: block;
+	width: 100%;
+	font-size: 12px;
+	text-align: right;
+}
+
+/* /CONTEUDO */
+
+/* TAGs */
+p {
+	margin: 0;
+	margin-bottom: 10px;
+	padding: 0;
+	font-size: 13px;
+	color: #666666;
+	line-height: 1.8em;
+}
+h1 {
+	margin: 20px 0;
+	padding: 0;
+	font-size: 24px;
+}
+h2 {
+	margin: 14px 0;
+	padding: 0;
+	font-size: 18px;
+	font-weight: normal;
+}
+h1, h2 {
+	color: #00557D;
+}
+a {
+	display: block;
+	text-decoration: none;
+	color: #00ADFF;
+}
+a:hover {
+	text-decoration: underline;
+}
+img {
+	border: none;
+}
+/* /TAGs */
